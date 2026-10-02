@@ -1,0 +1,34 @@
+[theme]
+base = "light"
+font = "sans-serif"
+headingFont = "sans-serif"
+codeFont = "monospace"
+baseRadius = "small"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#365d3d"
+backgroundColor = "#f3f5f0"
+secondaryBackgroundColor = "#e9eee6"
+textColor = "#172522"
+borderColor = "#dfe5dc"
+
+[theme.light.sidebar]
+backgroundColor = "#e9eee6"
+secondaryBackgroundColor = "#f3f5f0"
+
+[theme.dark]
+primaryColor = "#a9d77a"
+backgroundColor = "#101815"
+secondaryBackgroundColor = "#1b2520"
+textColor = "#edf4ef"
+borderColor = "#36463c"
+
+[theme.dark.sidebar]
+backgroundColor = "#141e19"
+secondaryBackgroundColor = "#1b2520"
+
+[server]
+maxUploadSize = 25
+enableCORS = true
+enableXsrfProtection = true
